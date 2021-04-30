@@ -21,9 +21,7 @@ const Topbar = ({ isOpen, toggle }) => {
           <TopbarLink to="home" onClick={toggle}>
             Home
           </TopbarLink>
-          <TopbarLink to="about" onClick={toggle}>
-            About
-          </TopbarLink>
+          
           <TopbarLink to="project" onClick={toggle}>
             Project
           </TopbarLink>
@@ -31,11 +29,7 @@ const Topbar = ({ isOpen, toggle }) => {
             Contact
           </TopbarLink>
         </TopbarMenu>
-        {/* <TopbtnWrap>
-          {/* <TopbarRoute to="/signin" onClick={toggle}>
-            Sign In
-          </TopbarRoute> */}
-        {/* </TopbtnWrap> */}
+        
       </TopbarWrapper>
     </TopbarContainer>
   );
